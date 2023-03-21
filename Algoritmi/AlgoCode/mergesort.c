@@ -1,5 +1,4 @@
 #define SIZE 	10
-#define PATT    20
 
 #include <stdio.h>
 #include <stdlib.h>
