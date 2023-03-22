@@ -1,0 +1,17 @@
+void AddOddclones(struct lista ** start)
+{
+
+    struct nodo * cursore = *start
+    
+    if(cursore != NULL)
+    {
+        if(cursore->valore % 2)
+        {
+        struct lista * nuovo = malloc(sizeof(struct lista);
+        nuovo->valore = cursore->valore;
+        nuovo->prossimo = cursore->prossimo;
+        cursore->prossimo = nuovo;
+        }
+        AddOddclones(&(cursore->prossimo);
+    }
+}

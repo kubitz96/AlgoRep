@@ -1,0 +1,24 @@
+//insertion sort, prendo un singolo elemento in un array è lo Inserisco nella posizione ordinata (esempio crescente)
+
+InsertionSort(A, n) // funzione che chiama la funzione insert su tutto l'array, forma iterativa
+{
+    for i = 0 to n-1 do     
+    {
+        Insert(A,i);
+    }
+}
+
+InsertionSort(A,n) //forma ricorsiva
+{
+    if n > 1; //caso base
+    {
+        InsertionSort(A,n-1) //chiamata ricorsiva
+        Insert(A,n-1)   //funzione che compie l'ordinamento
+    }
+}
+
+Insert(A,i)
+{
+    x = A[i]    //memorizzo il valore da confrontare in una variabile
+    
+}
