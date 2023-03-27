@@ -1,0 +1,20 @@
+# COMPILAZIONE
+gcc -c libmatcalc.c
+gcc -c libmatio.c
+gcc -c principale.c
+
+# LINKING
+
+# metodo 1
+gcc principale.o libmatio.o libmatcalc.o
+
+# metodo 2 
+# creo un archivio di nome libmat.a con dentro libmatio.o e libmatcalc.o
+ar -rc libmat.a  libmatio.o libmatcalc.o
+# effettuo il linking usando il file .a 
+gcc principale.o libmat.a
+# oppure (se il file inizia con "lib")
+gcc principale.o -L./ -lmat
+# -L./ serve a segnalare al linker di cercare i file di libreria nella directory locale
+# -lmat dice al compilatore di cercare il file libmat.a per risolvere eventuali dipendenze
+

@@ -1,0 +1,6 @@
+# compilo il file functions.c => verrà generato functions.o
+gcc -c functions.c 
+# compilo il file main.c => verrà generato main.o
+gcc -c main.c 
+# effettuo il linking tra main.o e functions.o => verrà generato prog_NXXXX.eseguibile
+gcc function.o main.o -o prog_NXXXX.eseguibile

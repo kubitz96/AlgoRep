@@ -1,0 +1,3 @@
+gcc -c file.c {compila e crea un file oggetto}
+gcc -o nomefile file.o {crea un exe con il nomefile}
+gcc file.c file2.c file3.c {crea un unico exe dai 3 file}

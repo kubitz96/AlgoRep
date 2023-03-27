@@ -1,0 +1,3 @@
+gcc -c main.c
+gcc -c funzioni.c
+gcc main.o funzioni.o -o programma

@@ -1,0 +1,22 @@
+NOTE DA APPROFONDIRE:
+SITO PER DUBBI TECNINCI stackoverflow.com
+file.h non sono librerie
+In C si possono usare delle collezioni con Union con cui puoi usare diversi tipi di dato
+Time sharing(condivisione di processi in CPU)
+deadlock(braccio della morta situazione di stallo tra due azioni dove una attende la risposta dell'altra)
+segmentation fault (errore del SO che ci informa che abbiamo tentato di scrivere qualcosa al di fuori della matrice a noi assegnataci)
+Un bytecode(linguaggio comprensibile da una virtual machina es. java py) puo essere eseguito su qualsiasi dispositivo, mentre l'eseguibile è pensato per una sola piattaforma
+file oggetto è un file intermedio tra compilazione e creazione del file eseguibile
+Fase di linking: al file oggeto vengono collegati i file mancanti per creare l'eseguibile, dunque collegando più file oggetto e una o più librerie
+dopo aver aperto una parentesi craffa ricorda di chiuderla
+capire gli errori
+DLL Libreria Dinamica non crei una copia dell'informazione ma indirizzi l'applicazione alla libreria che raccoglie i comandi, creando eseguibile piu snelli e veloci
+includo alla libreria
+Pensiero Computazionale ; insiemi di processi mentali che ci permetteno di risolvere un problema in modo tale che sia un umano che una macchinna possono eseguire la formulazione di tale processi.
+Brute force attacco per trovare la chiave di un sistema provando tutte le possibili combinazioni
+stdio standard input output definizioni per fare I\O
+main punto d'ingresso del programma, prima funzione
+float versione approsimata numeri reali
+scanf lettura 
+%f variabile float
+&a vai a scrive nella zona di memoria a

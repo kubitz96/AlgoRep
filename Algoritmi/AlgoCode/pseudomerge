@@ -1,0 +1,49 @@
+MergeSort(A,n)	//Overloading una funzione esterna che chiama la funzione effettiva con i parametri reali su cui bisogna operare ed ha lo stesso nome
+{
+	Mergesort(A,0,n-1);
+}
+
+Mergesort(A,p,r)
+{
+	if (p < r);		//se l'array ha piu di un elemento 
+	{
+		q = (p+r)/2; 	//iniziallizzo l'indice del mediano
+		Mergesort(A,p,q);		//parte superiore
+		Mergesort(A,q+1,r);		//parte inferiore
+		Merge(A,p,q,r);			//ordinamento 
+	}
+}
+
+Merge(A,p,q,r)
+{
+	B; //array di supporto temporaneo
+	k,i = p;		//indice array finale di ritono e indice subarray sinistro
+	j= q+1;			//indice subarray destro
+
+	while((i<=q)&&(j<=r)
+	{
+		if(A[i] <= A[j])
+		{
+			B[k]= A[i];	
+			++i;
+		}
+		else
+		{
+			B[k]= A[j];	
+			++j;
+		}
+		++k;
+	}
+
+	if(i<q)
+	{
+		j=i;
+	}
+	while(k <=r)
+	{
+		B[k] = A[j];
+		++j;
+		++k;
+	}
+	A = copy(B);
+}

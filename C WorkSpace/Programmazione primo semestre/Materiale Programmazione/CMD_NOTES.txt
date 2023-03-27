@@ -1,0 +1,32 @@
+cd "change dir
+cd :C\"program files" "dir with space need ""
+dir "view info dir
+dir \foldername "info folder
+dir \a "show hidden dir
+dir *.png "show only png files
+cd .. "back 1 dir
+cd ../.. "back 2 dir
+D: "change drive
+cls "clearscreen
+mkdir "new folder
+rmdir "folder nameremove folder
+rm dir /s foldername "remove all folder with file
+path "show possible paths
+del \f filename "delete
+wmic logicaldisk get name "show drives
+tree "show all dir as a tree
+color \? "show color list
+attrib /? " show att list
+echo lalalala > bacon.txt "create text file with lalal text"
+echo gigigi > bacon.txt "modify text and recreate file
+echo dsds >> bacon.txt "dd new text without overwriting
+type "show writing files
+dir > porky.txt "copy the directory info in note txt"
+copy filename foldername "copy file to another folder
+xcopy foldername foldername "copy all files from first folder to other folder
+xcopy foldername foldername /s "copy files and folders from folder to another folder
+move foldername foldername "move folder to another
+rename dirname newdirname "rename dir
+TAB "autocomplete"
+Arrows "commands history"
+

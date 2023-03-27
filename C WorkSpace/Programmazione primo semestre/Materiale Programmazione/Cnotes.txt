@@ -1,0 +1,51 @@
+1.Main è la prima funzione da cui parte il programma, che chiama gli altri programmi.
+
+2.La prima riga è #include <stdio.h>, è un header file che contiene le informazioni relative
+alla libreria standard di input/ output, la quale libreria si trova in fase di linking.
+
+3.Un metodo per comunicare dati tra funzioni consiste nel fornire alla funzione chiamata stessa
+una lista di valori detti argomenti, preparati dalla funzione chiamante.
+Le parentesi che seguono il nome della funzione contiene gli argomenti.
+
+Es: main () - main è una funzione che non si aspetta argomenti difatti si scrive con () o (void)
+
+4. Le istruzioni di una funzione sono racchiuse tra parentesi craffe {} 
+
+5.Nel project "Hello_World" , L'istruzione printf, presente all'interno della funzione Main,
+ha come argomento ("Hello,World\n") che è racchiuso appunto tra parentesi tonde.Questa funzione
+è riconosciuta dalla libreria di I\O la quale stampa una stringa di caratteri compresi tra apici"".
+
+6.La stringa di caratteri si può chiamare anche stringa costante.La sequenza \n (sequenza di escape)
+sta per newline che stampa l'output successivo daccapo a sinistra.
+
+7./* --- */ oppure // -- // per scrivere delle note. \t sta per tab e crea uno enorme spazio.
+
+8. clear buffer
+void clearbuffer(void)
+{
+char c;
+while( (c =getchar()) != '\n' && c != EOF);
+}
+EOF significa end of file o fine dell'input
+
+9.const parola chiave che rende una variabile immodificabile.
+
+10.%m.n m spazi n decimali
+
+11. != diverso
+
+12. sum+= i e come scriver sum= sum + i, e vale per qualsiasi operazione
+
+13.scanf !=1 se fallisce ==1 se avviene con successo
+
+14.prototipi di funzioni si possono scrivere in file.h o prima del main.
+le definizioni possono essere scritte sia prima che dopo il main.
+
+15.++i i++ diversi nelle espressioni
+
+16. passaggio per riferimento e per valore: per valore si crea una copia nella memoria
+e viene modificata solo la copia al di fuori del valore originale. dunque i passaggi non
+modificano la variabile originale
+
+per riferimento si usano i puntatori* e gli operatori di indirizzo& nel prototipo, cosi
+la variabile viene modificata nella stessa locazione di memoria assegnata dalla funzione.

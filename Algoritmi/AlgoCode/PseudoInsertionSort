@@ -20,5 +20,12 @@ InsertionSort(A,n) //forma ricorsiva
 Insert(A,i)
 {
     x = A[i]    //memorizzo il valore da confrontare in una variabile
+    j = i-1     //inizializzo il precedente
     
+    while(j >= 0 && A[j]> x)    //finchè esiste un precedente ed il suo valore è maggiore al valore x 
+    {
+        A[j+1] = A[j]; //copio a destra il valore più grande
+        j--;            //aggiorno il precedente
+    }
+    A[j+1] = x; //uscendo dal while trovo la posizione in cui il valore x deve stare ma devo ricordarmi di incrementare j
 }

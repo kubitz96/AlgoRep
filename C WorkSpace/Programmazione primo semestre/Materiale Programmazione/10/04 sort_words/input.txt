@@ -1,0 +1,1 @@
+According to Linus Torvalds, Variable-Length Arrays bring nothing of positive value to the world of embedded programming and bring problematic baggage with them including stability and speed issues. It is recommended to just use a sufficiently large fixed-size array when reasonable, or allocate the array on the heap when not.
